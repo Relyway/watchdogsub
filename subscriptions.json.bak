@@ -1,0 +1,177 @@
+{
+    "796957502": [
+        {
+            "service": "Нетфликс",
+            "price": 788,
+            "next_payment": "12.01.2026",
+            "active": false,
+            "notify": true,
+            "notify_days": 7,
+            "period": "monthly",
+            "history": [
+                {
+                    "date": "12.11.2024",
+                    "price": 788
+                },
+                {
+                    "date": "12.02.2025",
+                    "price": 788
+                },
+                {
+                    "date": "12.03.2025",
+                    "price": 788
+                }
+            ],
+            "display": "Нетфликс"
+        },
+        {
+            "service": "Твич",
+            "price": 1455,
+            "next_payment": "13.12.2025",
+            "active": true,
+            "notify": false,
+            "notify_days": 3,
+            "period": "monthly",
+            "history": [
+                {
+                    "date": "13.11.2024",
+                    "price": 1455
+                },
+                {
+                    "date": "13.12.2024",
+                    "price": 1455
+                },
+                {
+                    "date": "13.03.2025",
+                    "price": 1455
+                }
+            ],
+            "display": "Твич"
+        },
+        {
+            "service": "Ютуб премиум",
+            "price": 456,
+            "next_payment": "24.07.2025",
+            "active": true,
+            "notify": false,
+            "notify_days": 5,
+            "period": "monthly",
+            "history": [
+                {
+                    "date": "24.09.2024",
+                    "price": 456
+                },
+                {
+                    "date": "24.12.2024",
+                    "price": 456
+                },
+                {
+                    "date": "24.01.2025",
+                    "price": 456
+                }
+            ],
+            "display": "Ютуб премиум"
+        },
+        {
+            "service": "Манга либ",
+            "price": 245,
+            "next_payment": "12.06.2025",
+            "active": true,
+            "notify": true,
+            "notify_days": 3,
+            "period": "monthly",
+            "history": [
+                {
+                    "date": "12.06.2025",
+                    "price": 245
+                },
+                {
+                    "date": "12.06.2025",
+                    "price": 245
+                }
+            ],
+            "display": "Манга либ"
+        },
+        {
+            "service": "SoundCloud",
+            "price": 199,
+            "next_payment": "22.05.2025",
+            "active": true,
+            "notify": false,
+            "notify_days": 3,
+            "period": "monthly",
+            "history": [
+                {
+                    "date": "22.03.2025",
+                    "price": 199
+                },
+                {
+                    "date": "22.04.2025",
+                    "price": 199
+                }
+            ],
+            "display": "SoundCloud"
+        },
+        {
+            "service": "Facebook",
+            "price": 875,
+            "next_payment": "23.05.2025",
+            "active": true,
+            "notify": true,
+            "notify_days": 1,
+            "period": "monthly",
+            "history": [
+                {
+                    "date": "23.05.2025",
+                    "price": 875
+                },
+                {
+                    "date": "23.05.2025",
+                    "price": 875
+                }
+            ],
+            "display": "Facebook"
+        },
+        {
+            "service": "VR-Chat",
+            "price": 450,
+            "next_payment": "24.05.2025",
+            "active": true,
+            "notify": false,
+            "notify_days": 1,
+            "period": "monthly",
+            "history": [
+                {
+                    "date": "24.05.2025",
+                    "price": 450
+                },
+                {
+                    "date": "24.05.2025",
+                    "price": 450
+                }
+            ],
+            "display": "VR-Chat"
+        },
+        {
+            "service": "Talking Tom",
+            "price": 999,
+            "next_payment": "25.05.2025",
+            "active": false,
+            "notify": true,
+            "notify_days": 1,
+            "period": "monthly",
+            "history": [
+                {
+                    "date": "25.04.2025",
+                    "price": 999
+                },
+                {
+                    "date": "25.05.2025",
+                    "price": 999
+                }
+            ],
+            "display": "Talking Tom"
+        }
+    ],
+    "5007289632": []
+}
