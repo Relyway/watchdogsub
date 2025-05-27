@@ -2,8 +2,7 @@ import telebot
 import json
 import os
 import io
-import locale
-locale.setlocale(locale.LC_TIME, 'ru_RU')
+
 import re
 from html import escape
 
@@ -24,6 +23,13 @@ from tariff_providers import (
 )
 
 BAD = re.compile(r'[.#$/\[\]]')          # запрещённые символы
+
+MONTHS_RU = {
+    1: "января", 2: "февраля", 3: "марта", 4: "апреля",
+    5: "мая", 6: "июня", 7: "июля", 8: "августа",
+    9: "сентября", 10: "октября", 11: "ноября", 12: "декабря"
+}
+
 
 def safe_key(name: str) -> str:
     """safe_key('more.tv') → 'more_tv'  (Firebase-совместимый ключ)"""
@@ -412,7 +418,8 @@ def handle_message(message):
         for s in upcoming_list:
             try:
                 pd = datetime.strptime(s["next_payment"], "%d.%m.%Y")
-                pretty_date = pd.strftime("%d %B %Y")
+                pretty_date = f"{pd.day} {MONTHS_RU[pd.month]} {pd.year}"
+
                 upcoming_text += f"• 🔹 {s['service']} — {pretty_date} ({s['price']}₽)\n"
             except:
                 continue
@@ -1259,7 +1266,8 @@ def show_upcoming_payments(call):
     for s in subs:
         try:
             pay_date = datetime.strptime(s["next_payment"], "%d.%m.%Y")
-            date_str = pay_date.strftime("%d %B %Y")
+            date_str = f"{pay_date.day} {MONTHS_RU[pay_date.month]} {pay_date.year}"
+
         except:
             date_str = s["next_payment"]
 
