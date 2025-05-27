@@ -35,7 +35,7 @@ def safe_key(name: str) -> str:
 
 
 
-TOKEN = '7299939638:AAGmmjV3RMEvwYyRHAFZ1B9x8wB1HVC5Ir0'
+TOKEN = os.environ["TOKEN"]
 bot = telebot.TeleBot(TOKEN)
 
 
